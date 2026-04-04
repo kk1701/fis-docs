@@ -11,7 +11,11 @@ const config: Config = {
   projectName: 'fis-docs',
   trailingSlash: false,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks:{
+      onBrokenMarkdownLinks: 'warn'
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
