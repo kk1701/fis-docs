@@ -3,6 +3,8 @@ import type {SidebarsConfig} from '@docusaurus/types';
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     'intro',
+    'architecture',
+    'getting-started',
     {
       type: 'category',
       label: 'Faculty Guide',
