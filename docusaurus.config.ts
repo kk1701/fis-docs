@@ -2,9 +2,8 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 
 const config: Config = {
-  title: "Faculty Information System Documentation",
+  title: "FIS Docs",
   tagline: "Faculty Information System",
-  // favicon: "img/favicon.ico",
   url: "https://example.com",
   baseUrl: "/",
   organizationName: "test",
@@ -22,7 +21,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: '/',
+          routeBasePath: "/",
         },
         blog: false,
         theme: {
@@ -34,7 +33,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: "FIS Docs",
+      title: "Faculty Information System - Documentation",
       items: [],
     },
     footer: {
