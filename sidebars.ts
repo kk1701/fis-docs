@@ -5,6 +5,7 @@ const sidebars: SidebarsConfig = {
     'intro',
     'architecture',
     'getting-started',
+    'roles-permissions',
     {
       type: 'category',
       label: 'Faculty Guide',
