@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Registration
 sidebar_position: 1
 ---
 

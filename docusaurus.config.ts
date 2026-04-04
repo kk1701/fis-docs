@@ -1,38 +1,32 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
 
 const config: Config = {
-  title: 'FIS Documentation',
-  tagline: 'Faculty Information System — Complete Documentation',
-  favicon: 'img/favicon.ico',
-  url: 'https://kk1701.github.io',
-  baseUrl: '/fis-docs/',
-  organizationName: 'kk1701',
-  projectName: 'fis-docs',
-  trailingSlash: false,
-  onBrokenLinks: 'throw',
+  title: "Faculty Information System Documentation",
+  tagline: "Faculty Information System",
+  // favicon: "img/favicon.ico",
+  url: "https://example.com",
+  baseUrl: "/",
+  organizationName: "test",
+  projectName: "fis-docs",
+  onBrokenLinks: "warn",
   markdown: {
-    hooks:{
-      onBrokenMarkdownLinks: 'warn'
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
     },
-  },
-
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          routeBasePath: '/',       // docs at root
+          sidebarPath: "./sidebars.ts",
+          routeBasePath: '/',
         },
-        blog: false,                // disable blog
+        blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       },
     ],
@@ -40,29 +34,16 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'FIS Docs',
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
-        {
-          href: 'https://github.com/kk1701/fis-docs',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+      title: "FIS Docs",
+      items: [],
     },
     footer: {
-      style: 'dark',
-      copyright: `Faculty Information System — Built with Docusaurus`,
+      style: "dark",
+      copyright: "FIS Documentation",
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['bash', 'typescript', 'json', 'prisma'],
     },
   },
 };

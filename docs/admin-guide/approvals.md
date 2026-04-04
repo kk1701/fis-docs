@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Approvals
 sidebar_position: 1
 ---
 

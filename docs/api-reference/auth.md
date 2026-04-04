@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Auth
 sidebar_position: 1
 ---
 
