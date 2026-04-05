@@ -31,6 +31,7 @@ const sidebars: SidebarsConfig = {
         "admin-guide/publishing-reports",
       ],
     },
+    'public-pages',
     {
       type: "category",
       label: "API Reference",
