@@ -23,7 +23,13 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Admin Guide",
-      items: ["admin-guide/approvals"],
+      items: [
+        "admin-guide/approvals",
+        "admin-guide/departments-courses",
+        "admin-guide/faculty-management",
+        "admin-guide/analytics",
+        "admin-guide/publishing-reports",
+      ],
     },
     {
       type: "category",
