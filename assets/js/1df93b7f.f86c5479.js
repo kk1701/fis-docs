@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkfis_docs=globalThis.webpackChunkfis_docs||[]).push([[4583],{6866(s,i,o){o.r(i),o.d(i,{default:()=>t});var c=o(6347),r=o(4848);function t(){return(0,r.jsx)(c.rd,{to:"/fis-docs/intro"})}}}]);
