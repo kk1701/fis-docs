@@ -68,6 +68,8 @@ const sidebars: SidebarsConfig = {
         "analytics-reference/supervision-pipeline",
       ],
     },
+    'security',
+    'deployment',
   ],
 };
 
