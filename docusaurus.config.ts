@@ -5,10 +5,11 @@ const config: Config = {
   title: "FIS Docs",
   tagline: "Faculty Information System",
   url: "https://example.com",
-  baseUrl: "/",
-  organizationName: "test",
+  baseUrl: "/fis-docs/",
+  organizationName: "kk1701",
   projectName: "fis-docs",
   onBrokenLinks: "warn",
+  trailingSlash: false,
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: "warn",
