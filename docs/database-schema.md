@@ -13,8 +13,8 @@ FIS uses PostgreSQL as its database, managed through Prisma ORM. This page docum
 
 Click the diagram to open it in full resolution in a new tab where you can zoom into any part of the schema.
 
-<a href="/img/ERD_svg.svg" target="_blank">
-  <img src="/img/ERD_svg.svg" alt="FIS Database Schema ERD" style={{width: '100%', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '8px'}} />
+<a href="/fis-docs/img/ERD_svg.svg" target="_blank">
+  <img src="/fis-docs/img/ERD_svg.svg" alt="FIS Database Schema ERD" style={{width: '100%', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '8px'}} />
 </a>
 
 ---
